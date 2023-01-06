@@ -66,10 +66,10 @@ The command
 
 will make the file ex_10.tsp containing 10 cities with random weights between 1 and 10 and it is created in the examples folder.
 
-### Tester
+### TSP multiple solver
 
-This script consists of making necessary tests in a simple and comfortable way. In addition, graphs will be created representing the results of the tests.
+This script solves multiple given TSP problems. It also outputs graphs of the cost of some valid routes per each parameter T. In the future the script will use arguments in the command line.
 
 To run this script, being in the src/scripts directory, run the command
 
-> python3 tests.py
+> python3 tsp_solver.py

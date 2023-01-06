@@ -6,7 +6,7 @@ class Solution:
         starting_city = graph.obtain_node(starting_city)
         self.cities = graph
         self.route = [starting_city]
-        temp = list(graph.cities.values())
+        temp = list(graph.nodes.values())
         temp.remove(starting_city)
 
         for _ in range(len(temp)):

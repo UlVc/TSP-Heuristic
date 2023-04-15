@@ -1,4 +1,4 @@
-# Traveler Sales Problem Heuristic
+# A heuristic for the Traveling Salesman Problem
 
 The output of the program gives:
 - Number of cities.
